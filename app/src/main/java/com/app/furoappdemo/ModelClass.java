@@ -36,7 +36,9 @@ public class ModelClass {
         this. hour = hour;
     }
 
-
-
-
 }
+
+
+
+
+

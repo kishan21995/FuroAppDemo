@@ -59,8 +59,10 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
             imageView = itemView.findViewById(R.id.profileIMG);
             imageView = itemView.findViewById(R.id.likeIMG);
 
-
-
         }
     }
 }
+
+
+
+
