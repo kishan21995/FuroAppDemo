@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_black"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileIMG"
+                android:src="@drawable/arman"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:civ_border_width="0.1dp"
+                app:civ_border_color="@color/color_white"/>
+
+            <TextView
+                android:text="Title"
+                android:layout_toRightOf="@id/profileIMG"
+                android:id="@+id/title"
+                android:textColor="@color/color_white"
+                android:layout_toLeftOf="@id/likeIMG"
+                android:layout_marginTop="25dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/likeIMG"
+                android:layout_toLeftOf="@id/hour"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ic_baseline_favorite_border_24" />
+
+            <TextView
+                android:text="Hours"
+                android:id="@+id/hour"
+                android:textColor="@color/color_white"
+                android:textSize="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
